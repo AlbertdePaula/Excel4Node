@@ -1,6 +1,22 @@
 {
+  "name": "exceltonode",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/AlbertdePaula/Excel4Node.git",
+  "author": "Albert de Paula <albert_depaula@yahoo.com.br>",
+  "license": "MIT",
+
+  "scripts": {
+    "start": "ts-node src/index.ts"
+  },
+
   "dependencies": {
-    "excel4node": "^1.8.0",
+    "@types/node": "^18.7.21",
+    "exceljs": "^4.3.0",
+    "ts-node": "^10.9.1",
     "typescript": "^4.8.3"
+  },
+  "devDependencies": {
+    "@types/typescript": "^2.0.0"
   }
 }
